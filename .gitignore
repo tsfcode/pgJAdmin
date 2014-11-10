@@ -2,6 +2,10 @@
 /bin/
 /out/
 
+.idea/*
+*.swp
+.gitignore
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
