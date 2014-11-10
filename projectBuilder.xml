@@ -11,11 +11,11 @@
                 <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
                 <attribute name="Rsrc-Main-Class" value="com.frenberg.pgJAdmin.main.pgJAdmin"/>
                 <attribute name="Class-Path" value="."/>
-                <attribute name="Rsrc-Class-Path" value="./ postgresql-9.3-1102.jdbc4.jar"/>
+                <attribute name="Rsrc-Class-Path" value="./ postgresql-9.3-1102.jdbc41.jar"/>
             </manifest>
             <zipfileset src="jar-in-jar-loader.zip"/>
             <fileset dir="./bin"/>
-            <zipfileset dir="./lib" includes="postgresql-9.3-1102.jdbc4.jar"/>
+            <zipfileset dir="./lib" includes="postgresql-9.3-1102.jdbc41.jar"/>
         </jar>
 	</target>
 
