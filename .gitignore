@@ -1,5 +1,6 @@
 *.class
 /bin/
+/out/
 
 .idea/*
 *.swp
